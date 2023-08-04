@@ -1,18 +1,23 @@
 <template>
   <nav class="nav">
     <div class="container-home-link">
-      <img class="home-link" src="../../favicon.png" />
+      <img
+        class="home-link"
+        src="https://media.giphy.com/media/RsZ3PEHTxJp9zjTZ0C/giphy.gif"
+        alt="Status 200 image"
+      />
     </div>
     <ul class="nav-list">
-      <li class="item-list">Home</li>
-      <li class="item-list">About</li>
+      <li class="item-list"><a href="#home">Home</a></li>
+      <li class="item-list"><a href="#about">About</a></li>
       <li class="item-list">Tech stack</li>
-      <li class="item-list">Projects</li>
+      <li class="projects-list-li">Projects</li>
       <ul class="projects-list">
-        <li class="full-stack item-list">Full-stack projects</li>
-        <li class="front-end item-list">Front-end projects</li>
+        <li class="full-stack">Full-stack projects</li>
+        <li class="front-end">Front-end projects</li>
       </ul>
       <li class="item-list">Contact</li>
+      <router-view />
     </ul>
   </nav>
 </template>
@@ -28,37 +33,76 @@
 }
 
 .home-link {
-  width: 3.5rem;
+  width: 10rem;
   margin-top: 2rem;
   justify-content: center;
   cursor: pointer;
 }
+
 .nav-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   list-style: none;
-  margin-top: 10rem;
+  margin-top: 5rem;
   cursor: pointer;
   color: rgb(255, 255, 255);
-  font-family: "Space Mono", monospace;
+  font-family: "Tektur", cursive;
   font-size: 1.4rem;
-  gap: 1.8rem;
+  gap: 3.5rem;
+}
+.projects-list {
+  display: none;
+  position: absolute;
 }
 
-.item-list:hover {
-  text-decoration: underline;
-  transform: scale(1.1);
+.projects-list-li:hover {
+  position: absolute;
+
+  .full-stack {
+    display: flex;
+    position: relative;
+  }
+  .front-end {
+    display: flex;
+    position: relative;
+  }
 }
+
+.full-stack:hover {
+  display: block;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.item-list {
+  transition: 0.5s;
+}
+
+li a:hover {
+  border-bottom: 2px solid rgb(62, 10, 206);
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: rgb(62, 10, 206);
+  transition: 0.5s;
+}
+.item-list:hover {
+  border-bottom: 2px solid rgb(62, 10, 206);
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: rgb(62, 10, 206);
+}
+
 .home-list {
   width: 2.5rem;
 }
 
-.projects-list {
-  display: none;
-}
-.projects-list:hover {
-  display: flex;
-  flex-direction: column;
+@media (max-width: 500px) {
+  .nav {
+    width: 8rem;
+  }
 }
 </style>
