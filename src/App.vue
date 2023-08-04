@@ -5,7 +5,7 @@
 
 <script>
 import { defineComponent } from "vue";
-import HomePage from "./components/Homepage.vue";
+import HomePage from "./components/HomePage.vue";
 import AboutPage from "./components/AboutPage.vue";
 
 export default defineComponent({

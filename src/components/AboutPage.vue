@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section id="about" class="about">
     <h1 class="title">Hello</h1>
   </section>
 </template>
@@ -14,6 +14,7 @@ export default defineComponent({
 
 <style>
 .about {
-  background-color: blue;
+  background-color: rgb(156, 144, 144);
+  height: 100vh;
 }
 </style>
