@@ -5,7 +5,7 @@ import AboutPage from "../components/AboutPage.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/home",
     name: "HomePage",
     component: HomePage,
   },
