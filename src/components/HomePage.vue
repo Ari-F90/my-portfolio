@@ -12,7 +12,7 @@
         />
       </div>
       <div class="sub-container">
-        <div class="hello">Hi there, I'm Ariadna</div>
+        <div class="hello">Hi there! I'm Ariadna</div>
         <div class="ocupation">Full-stack developer</div>
         <p class="description">
           Always learning and seeking collaborative opportunities to contribute
@@ -32,17 +32,20 @@
         </div>
       </div>
     </div>
+    <ArrowUp />
   </section>
 </template>
 
 <script>
 import { defineComponent } from "vue";
 import NavMenu from "./NavMenu.vue";
+import ArrowUp from "./ArrowUp.vue";
 
 export default defineComponent({
   name: "HomePage",
   components: {
     NavMenu,
+    ArrowUp,
   },
 });
 </script>
@@ -81,6 +84,10 @@ export default defineComponent({
   font-family: "Ysabeau Infant", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 2rem;
+  border: 2px solid rgb(255, 255, 255);
+  margin-right: 10rem;
+  text-align: center;
+  border-radius: 0.9rem;
 }
 .description {
   font-family: "Ysabeau Infant", sans-serif;
