@@ -8,6 +8,7 @@
         <img
           class="image-home"
           src="https://media.giphy.com/media/PmAjqmm4beKervYzFr/giphy.gif"
+          alt="Home office image"
         />
       </div>
       <div class="sub-container">
@@ -15,12 +16,19 @@
         <div class="ocupation">Full-stack developer</div>
         <p class="description">
           Always learning and seeking collaborative opportunities to contribute
-          and grow in web development.
+          and grow in web development
         </p>
         <div class="buttons">
-          <button class="button">My resume</button>
-          <img class="github" src="../../img/github.png" />
-          <img class="linkedin" src="../../public//img/linkedin.png" />
+          <a
+            href="https://drive.google.com/file/d/1w8XTVjmkvkXA4MyeRM4WrwzRfwkrZ2yC/view?usp=sharing"
+            ><button class="button">My resume</button></a
+          >
+          <a href="https://github.com/Ari-F90"
+            ><img class="github" src="../../public/img/github.png"
+          /></a>
+          <a href="https://www.linkedin.com/in/ariadnafriasdiaz/"
+            ><img class="linkedin" src="../../public/img/linkedin.png"
+          /></a>
         </div>
       </div>
     </div>
@@ -49,8 +57,8 @@ export default defineComponent({
   justify-content: center;
   align-items: center;
   padding-left: 8rem;
-  padding-right: 5rem;
-  gap: 6rem;
+  padding-right: 6rem;
+  gap: 5rem;
 }
 .image-home {
   width: 30rem;
@@ -60,13 +68,13 @@ export default defineComponent({
 .sub-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.8rem;
 }
 
 .hello {
-  font-family: "Space Mono", monospace;
-  color: rgb(237, 2, 81);
-  font-size: 3rem;
+  font-family: "Tektur", cursive;
+  color: rgb(62, 10, 206);
+  font-size: 2.5rem;
 }
 
 .ocupation {
@@ -90,18 +98,20 @@ export default defineComponent({
   width: 8rem;
   height: 2.7rem;
   border-radius: 0.8rem;
-  color: rgb(237, 2, 81);
+  color: rgb(62, 10, 206);
   background-color: rgba(157, 205, 205, 255);
   cursor: pointer;
-  border: 2px solid rgb(237, 2, 81);
-  font-family: "Ysabeau Infant", sans-serif;
-  font-size: 1.1rem;
-  transition: 0.8s;
+  border: 3px solid rgb(62, 10, 206);
+  font-family: "Tektur", cursive;
+  font-size: 1.2rem;
+  transition: 0.5s;
 }
 .button:hover {
   transform: scale(1.2);
   opacity: 0.5;
   transition: 0.5s;
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
 }
 
 .github {
@@ -123,5 +133,11 @@ export default defineComponent({
   transform: translateY(-0.8rem);
   transition: 0.5s;
   opacity: 0.5;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
 }
 </style>
