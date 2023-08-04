@@ -15,6 +15,5 @@ export default defineComponent({
 <style>
 .about {
   background-color: rgb(156, 144, 144);
-  height: 100vh;
 }
 </style>

@@ -56,23 +56,6 @@
   position: absolute;
 }
 
-.projects-list-li:hover {
-  position: absolute;
-
-  .full-stack {
-    display: flex;
-    position: relative;
-  }
-  .front-end {
-    display: flex;
-    position: relative;
-  }
-}
-
-.full-stack:hover {
-  display: block;
-}
-
 li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
