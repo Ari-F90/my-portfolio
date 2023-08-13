@@ -89,13 +89,13 @@ export default defineComponent({
 .hello {
   font-family: "Tektur", cursive;
   color: rgb(62, 10, 206);
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .ocupation {
   font-family: "Ysabeau Infant", sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .description {
   font-family: "Ysabeau Infant", sans-serif;

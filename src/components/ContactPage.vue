@@ -23,6 +23,6 @@ export default defineComponent({
   font-family: "Tektur", cursive;
   text-align: center;
   padding-top: 4rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 </style>
