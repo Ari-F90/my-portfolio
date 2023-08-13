@@ -44,7 +44,7 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
-  margin-top: 5rem;
+  margin-top: 3rem;
   cursor: pointer;
   color: rgb(255, 255, 255);
   font-family: "Tektur", cursive;
