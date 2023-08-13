@@ -10,7 +10,7 @@
     <ul class="nav-list">
       <li class="item-list"><a href="#home">Home</a></li>
       <li class="item-list"><a href="#about">About</a></li>
-      <li class="item-list">Tech stack</li>
+      <li class="item-list"><a href="#tech">Tech stack</a></li>
       <li class="projects-list-li">Projects</li>
       <ul class="projects-list">
         <li class="full-stack">Full-stack projects</li>
@@ -62,6 +62,14 @@ li a {
 }
 
 .item-list {
+  transition: 0.5s;
+}
+
+.projects-list-li:hover {
+  border-bottom: 2px solid rgb(62, 10, 206);
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: rgb(62, 10, 206);
   transition: 0.5s;
 }
 

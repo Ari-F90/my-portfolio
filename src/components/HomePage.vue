@@ -12,7 +12,7 @@
         />
       </div>
       <div class="sub-container">
-        <div class="hello">Hi there, I'm Ariadna</div>
+        <div class="hello">Hi there! I'm Ariadna</div>
         <div class="ocupation">Full-stack developer</div>
         <p class="description">
           Always learning and seeking collaborative opportunities to contribute
@@ -26,23 +26,26 @@
           <a href="https://github.com/Ari-F90"
             ><img class="github" src="../../public/img/github.png"
           /></a>
-          <a href="https://www.linkedin.com/in/ariadnafriasdiaz/"
+          <a href="https://es.linkedin.com/in/ariadnafriasdiaz/"
             ><img class="linkedin" src="../../public/img/linkedin.png"
           /></a>
         </div>
       </div>
     </div>
+    <ArrowUp />
   </section>
 </template>
 
 <script>
 import { defineComponent } from "vue";
 import NavMenu from "./NavMenu.vue";
+import ArrowUp from "./ArrowUp.vue";
 
 export default defineComponent({
   name: "HomePage",
   components: {
     NavMenu,
+    ArrowUp,
   },
 });
 </script>
