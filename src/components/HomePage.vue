@@ -60,7 +60,7 @@ export default defineComponent({
   width: 3rem;
   display: block;
   position: fixed;
-  left: 6%;
+  right: 4%;
   bottom: 6%;
 }
 .home {
