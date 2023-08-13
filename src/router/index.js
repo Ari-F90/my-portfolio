@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "../components/HomePage.vue";
 import AboutPage from "../components/AboutPage.vue";
 import TechStack from "../components/TechStack.vue";
+import ContactPage from "../components/ContactPage.vue";
 
 const routes = [
   {
@@ -12,6 +13,7 @@ const routes = [
   },
   { path: "/about", name: "AboutPage", component: AboutPage },
   { path: "/tech", name: "TechStack", component: TechStack },
+  { path: "/contact", name: "ContactPage", component: ContactPage },
 ];
 
 const router = createRouter({

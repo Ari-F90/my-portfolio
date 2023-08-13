@@ -16,7 +16,7 @@
         <li class="full-stack">Full-stack projects</li>
         <li class="front-end">Front-end projects</li>
       </ul>
-      <li class="item-list">Contact</li>
+      <li class="item-list"><a href="#contact">Contact</a></li>
       <router-view />
     </ul>
   </nav>
@@ -44,7 +44,7 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
-  margin-top: 5rem;
+  margin-top: 3rem;
   cursor: pointer;
   color: rgb(255, 255, 255);
   font-family: "Tektur", cursive;

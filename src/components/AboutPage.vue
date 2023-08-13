@@ -65,7 +65,7 @@ export default defineComponent({
   color: rgb(62, 10, 206);
   font-family: "Tektur", cursive;
   text-align: center;
-  padding-top: 6rem;
+  padding-top: 4rem;
   font-size: 3.5rem;
 }
 
