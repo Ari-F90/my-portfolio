@@ -35,8 +35,7 @@
     <div class="arrow-container">
       <a href="#home">
         <img class="arrow" alt="move-up arrow" src="../../public/img/up.png" />
-        ></a
-      >
+      </a>
     </div>
   </section>
 </template>
@@ -61,8 +60,8 @@ export default defineComponent({
   width: 3rem;
   display: block;
   position: fixed;
-  bottom: 3rem;
-  right: 91rem;
+  left: 6%;
+  bottom: 6%;
 }
 .home {
   background-color: rgba(157, 205, 205, 255);
