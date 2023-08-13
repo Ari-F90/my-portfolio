@@ -1,9 +1,6 @@
 <template>
   <section id="about" class="about">
-    <h1 class="about-title">
-      <span class="me">Hey,</span> let's talk a bit
-      <span class="me">about me!</span>
-    </h1>
+    <h1 class="about-title">Hey, let's talk a bit about me!</h1>
     <div class="my-desc">
       <p class="first-p">
         After almost 9 years in the markets and financial sector, I came across
@@ -65,14 +62,6 @@ export default defineComponent({
 }
 
 .about-title {
-  color: rgb(255, 255, 255);
-  font-family: "Tektur", cursive;
-  text-align: center;
-  padding-top: 6rem;
-  font-size: 3.5rem;
-}
-
-.me {
   color: rgb(62, 10, 206);
   font-family: "Tektur", cursive;
   text-align: center;
