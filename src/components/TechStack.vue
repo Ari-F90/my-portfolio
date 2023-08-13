@@ -1,12 +1,12 @@
 <template>
   <section id="tech" class="tech">
-    <h1 class="title">My Tech Stack</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odio harum
-      rem dolorem consequatur quidem accusamus beatae perspiciatis reprehenderit
-      maxime necessitatibus laborum temporibus possimus adipisci libero
-      quibusdam ipsum, neque omnis.
-    </p>
+    <h1 class="tech-title">My Tech Stack</h1>
+    <div class="front-div">
+      FRONT-END
+      <img class="tech-icon" src="../../public/img/html.png" alt="html" />
+    </div>
+    <div>BACK-END</div>
+    <div>OTHER TOOLS</div>
   </section>
 </template>
 
@@ -20,6 +20,14 @@ export default defineComponent({
 
 <style>
 .tech {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(62, 10, 206);
+  min-height: 100vh;
+}
+.tech-title {
+  color: rgb(255, 255, 255);
+  font-family: "Tektur", cursive;
+  text-align: center;
+  padding-top: 6rem;
+  font-size: 3.5rem;
 }
 </style>
