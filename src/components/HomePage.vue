@@ -32,25 +32,38 @@
         </div>
       </div>
     </div>
-    <ArrowUp />
+    <div class="arrow-container">
+      <a href="#home">
+        <img class="arrow" alt="move-up arrow" src="../../public/img/up.png" />
+        ></a
+      >
+    </div>
   </section>
 </template>
 
 <script>
 import { defineComponent } from "vue";
 import NavMenu from "./NavMenu.vue";
-import ArrowUp from "./ArrowUp.vue";
 
 export default defineComponent({
   name: "HomePage",
   components: {
     NavMenu,
-    ArrowUp,
   },
 });
 </script>
 
 <style>
+.arrow-container {
+  padding-right: 3rem;
+}
+.arrow {
+  width: 3rem;
+  display: block;
+  position: fixed;
+  bottom: 3rem;
+  right: 91rem;
+}
 .home {
   background-color: rgba(157, 205, 205, 255);
   display: flex;
