@@ -5,7 +5,8 @@
       <p class="first-p">
         After almost 9 years in the markets and financial sector, I came across
         with the programming world. <br />In 2023, I finished the
-        <span class="strong">ISDI Coders</span> course
+        <span class="strong">ISDI Coders</span> (2021 World's best coding
+        bootcamp) course
         <span class="strong">"Full-stack web development program".</span>
         <br />My goal is to continue learning and improving my skills while
         contributing to meaningful projects that can make a difference, while
@@ -66,7 +67,7 @@ export default defineComponent({
   font-family: "Tektur", cursive;
   text-align: center;
   padding-top: 4rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .my-desc {
@@ -91,7 +92,7 @@ export default defineComponent({
   padding-top: 4.5rem;
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .skills-title {
   align-self: center;
@@ -119,7 +120,7 @@ export default defineComponent({
   padding-top: 4.5rem;
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .hobbies-title {
   align-self: center;
