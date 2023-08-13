@@ -1,13 +1,9 @@
 <template>
   <div class="arrow-container">
-    <a href="#home"
-      ><i>
-        <img
-          class="arrow"
-          alt="move-up arrow"
-          src="../../public/img/up.png"
-        /> </i
-    ></a>
+    <a href="#home">
+      <img class="arrow" alt="move-up arrow" src="../../public/img/up.png" />
+      ></a
+    >
   </div>
 </template>
 
