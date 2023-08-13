@@ -6,7 +6,7 @@ import TechStack from "../components/TechStack.vue";
 
 const routes = [
   {
-    path: "/home",
+    path: "/",
     name: "HomePage",
     component: HomePage,
   },
