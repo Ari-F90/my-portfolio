@@ -286,7 +286,7 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 6rem;
 }
 .front-title {
   color: rgb(255, 255, 255);
@@ -335,7 +335,7 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 6rem;
 }
 
 .back-title {
@@ -386,7 +386,7 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 6rem;
 }
 .other-title {
   color: rgb(255, 255, 255);
