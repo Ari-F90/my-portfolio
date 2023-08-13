@@ -291,7 +291,7 @@ export default defineComponent({
 .front-title {
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   align-self: center;
   border-bottom: 2px solid rgb(255, 255, 255);
   padding-top: 4rem;
@@ -341,7 +341,7 @@ export default defineComponent({
 .back-title {
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   align-self: center;
   border-bottom: 2px solid rgb(255, 255, 255);
   padding-top: 2rem;
@@ -391,7 +391,7 @@ export default defineComponent({
 .other-title {
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   align-self: center;
   border-bottom: 2px solid rgb(255, 255, 255);
   padding-top: 2rem;

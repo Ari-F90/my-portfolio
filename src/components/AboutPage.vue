@@ -91,7 +91,7 @@ export default defineComponent({
   padding-top: 4.5rem;
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .skills-title {
   align-self: center;
@@ -119,7 +119,7 @@ export default defineComponent({
   padding-top: 4.5rem;
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .hobbies-title {
   align-self: center;
