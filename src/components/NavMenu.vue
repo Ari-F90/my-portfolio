@@ -16,7 +16,7 @@
         <li class="full-stack">Full-stack projects</li>
         <li class="front-end">Front-end projects</li>
       </ul>
-      <li class="item-list">Contact</li>
+      <li class="item-list"><a href="#contact">Contact</a></li>
       <router-view />
     </ul>
   </nav>
