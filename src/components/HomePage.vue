@@ -26,7 +26,7 @@
           <a href="https://github.com/Ari-F90"
             ><img class="github" src="../../public/img/github.png"
           /></a>
-          <a href="https://www.linkedin.com/in/ariadnafriasdiaz/"
+          <a href="https://es.linkedin.com/in/ariadnafriasdiaz/"
             ><img class="linkedin" src="../../public/img/linkedin.png"
           /></a>
         </div>
@@ -84,10 +84,6 @@ export default defineComponent({
   font-family: "Ysabeau Infant", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 2rem;
-  border: 2px solid rgb(255, 255, 255);
-  margin-right: 10rem;
-  text-align: center;
-  border-radius: 0.9rem;
 }
 .description {
   font-family: "Ysabeau Infant", sans-serif;
