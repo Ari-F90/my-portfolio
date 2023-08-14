@@ -5,7 +5,7 @@
       <div class="image-desc">
         <div class="image-buttons">
           <div>
-            <img class="card-image" v-bind:src="image" v-bind:alt="herland" />
+            <img class="card-image" v-bind:src="'image'" alt="herland" />
           </div>
           <div class="buttons">
             <button class="button-link">Project link</button>
