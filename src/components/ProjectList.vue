@@ -1,7 +1,32 @@
 <template>
   <section id="projects" class="projects">
-    <div>
-      <CardProject title="Herland"></CardProject>
+    <h1 class="projects-title">Check out them!</h1>
+    <div class="list-container">
+      <CardProject
+        title="HERLAND"
+        image="../../public/img/herland.png"
+        description="Full-stack Single-Page Application that aims to shed light on the stories of inspiring women who have not been recognized throughout the history and who have made significant contributions to their respective domains. The application allows users to filter these figures on specific categories such as sports, science, literature and more."
+        stack="SASS modules | Typescript | React | Redux | NodeJS | Express | MongoDB | Jest | Firebase"
+      ></CardProject>
+      <CardProject
+        title="FESTIVAPP"
+        image="../../public/img/festivapp.png"
+        description="Full-stack Single-Page Application (mobile-only) that allows users to create, update, and delete festivals on a marketplace platform."
+        stack="SASS modules | Typescript | React | Redux | NodeJS | Express | MongoDB | JWT | Jest | Firebase"
+      ></CardProject>
+      <CardProject title="MY PORTFOLIO"></CardProject>
+      <CardProject
+        title="MOVIE EXPLORER"
+        image="../../public/img/movieapi.png"
+        description="Application that allows users to explore the latest movies currently in cinemas, fetching data from the The Movie Database API (https://developer.themoviedb.org/)."
+        stack="Javascript | React | Flux"
+      ></CardProject>
+      <CardProject
+        title="PASAPALABRA"
+        image="../../public/img/pasapalabra.png"
+        description="Word-based trivia game inspired by the popular TV show. Players are presented with a series of questions, each associated with a specific letter of the alphabet."
+        stack="Javascript"
+      ></CardProject>
     </div>
   </section>
 </template>
@@ -20,8 +45,6 @@ export default defineComponent({
 .projects {
   background-color: rgba(157, 205, 205, 255);
   min-height: 100vh;
-  padding-left: 5%;
-  padding-right: 5%;
   padding-bottom: 6rem;
 }
 
@@ -31,5 +54,16 @@ export default defineComponent({
   text-align: center;
   padding-top: 4rem;
   font-size: 3rem;
+}
+
+.list-container {
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(auto-fit, 90%);
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 </style>
