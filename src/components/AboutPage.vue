@@ -15,32 +15,42 @@
         field.
       </p>
     </div>
-    <div class="skills">
-      <span class="skills-title">SOFT SKILLS </span>
-      <div class="skills-icon">
-        <img
-          src="../../public/img/teamplayer.png"
-          alt="teamplayer"
-          class="icon"
-        />
-        <img src="../../public/img/time.png" alt="time" class="icon" />
-        <img src="../../public/img/solution.png" alt="solution" class="icon" />
-        <img
-          src="../../public/img/communication.png"
-          alt="communication"
-          class="icon"
-        />
-        <img src="../../public/img/adapt.png" alt="adpatablity" class="icon" />
+    <div class="container-about">
+      <div class="skills">
+        <span class="skills-title">SOFT SKILLS </span>
+        <div class="skills-icon">
+          <img
+            src="../../public/img/teamplayer.png"
+            alt="teamplayer"
+            class="icon"
+          />
+          <img src="../../public/img/time.png" alt="time" class="icon" />
+          <img
+            src="../../public/img/solution.png"
+            alt="solution"
+            class="icon"
+          />
+          <img
+            src="../../public/img/communication.png"
+            alt="communication"
+            class="icon"
+          />
+          <img
+            src="../../public/img/adapt.png"
+            alt="adpatablity"
+            class="icon"
+          />
+        </div>
       </div>
-    </div>
-    <div class="hobbies">
-      <span class="hobbies-title">HOBBIES</span>
-      <div class="hobbies-icon">
-        <img src="../../public/img/coding.png" alt="coding" class="icon" />
-        <img src="../../public/img/music.png" alt="music" class="icon" />
-        <img src="../../public/img/sport.png" alt="sport" class="icon" />
-        <img src="../../public/img/travel.png" alt="travel" class="icon" />
-        <img src="../../public/img/read.png" alt="read" class="icon" />
+      <div class="hobbies">
+        <span class="hobbies-title">HOBBIES</span>
+        <div class="hobbies-icon">
+          <img src="../../public/img/coding.png" alt="coding" class="icon" />
+          <img src="../../public/img/music.png" alt="music" class="icon" />
+          <img src="../../public/img/sport.png" alt="sport" class="icon" />
+          <img src="../../public/img/travel.png" alt="travel" class="icon" />
+          <img src="../../public/img/read.png" alt="read" class="icon" />
+        </div>
       </div>
     </div>
   </section>
@@ -73,7 +83,7 @@ export default defineComponent({
 .my-desc {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   color: rgb(255, 255, 255);
   padding-top: 4rem;
@@ -87,12 +97,19 @@ export default defineComponent({
   font-style: italic;
 }
 
+.container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 6rem;
+}
 .skills {
   display: flex;
   padding-top: 4.5rem;
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 1.2rem;
+  gap: 4rem;
 }
 .skills-title {
   align-self: center;
@@ -101,7 +118,6 @@ export default defineComponent({
 .skills-icon {
   display: flex;
   gap: 6rem;
-  padding-left: 8rem;
 }
 
 .icon {
@@ -121,6 +137,7 @@ export default defineComponent({
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 1.2rem;
+  gap: 6rem;
 }
 .hobbies-title {
   align-self: center;
@@ -129,6 +146,44 @@ export default defineComponent({
 .hobbies-icon {
   display: flex;
   gap: 6rem;
-  padding-left: 11rem;
+}
+
+@media (max-width: 1100px) {
+  .about {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .container-about {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+  }
+  .skills {
+    flex-direction: column;
+  }
+
+  .skills-title {
+    font-size: 1rem;
+  }
+  .skills-icon {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .icon {
+    width: 4rem;
+  }
+  .hobbies {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .hobbies-title {
+    font-size: 1rem;
+  }
+  .hobbies-icon {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 </style>

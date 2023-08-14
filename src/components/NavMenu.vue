@@ -11,11 +11,7 @@
       <li class="item-list"><a href="#home">Home</a></li>
       <li class="item-list"><a href="#about">About</a></li>
       <li class="item-list"><a href="#tech">Tech stack</a></li>
-      <li class="projects-list-li">Projects</li>
-      <ul class="projects-list">
-        <li class="full-stack">Full-stack projects</li>
-        <li class="front-end">Front-end projects</li>
-      </ul>
+      <li class="item-list"><a href="#projects">Projects</a></li>
       <li class="item-list"><a href="#contact">Contact</a></li>
       <router-view />
     </ul>
@@ -92,8 +88,8 @@ li a:hover {
 }
 
 @media (max-width: 500px) {
-  .nav {
-    width: 8rem;
+  .nav-list {
+    flex-direction: row;
   }
 }
 </style>
