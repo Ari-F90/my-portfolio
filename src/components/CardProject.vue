@@ -5,11 +5,15 @@
       <div class="image-desc">
         <div class="image-buttons">
           <div>
-            <img class="card-image" v-bind:src="'{{image}}'" alt="herland" />
+            <img class="card-image" v-bind:src="image" v-bind:alt="title" />
           </div>
           <div class="buttons">
-            <button class="button-link">Project link</button>
-            <button class="button-link">View the repository</button>
+            <a :href="link"
+              ><button class="button-link">Project link</button></a
+            >
+            <a :href="github"
+              ><button class="button-link">View the repository</button></a
+            >
           </div>
         </div>
 
@@ -92,7 +96,7 @@ export default defineComponent({
 
 .card-image {
   width: 40rem;
-  object-fit: contain;
+  object-fit: cover;
   cursor: pointer;
   transition: 0.7s;
 }
@@ -123,9 +127,22 @@ export default defineComponent({
     object-fit: contain;
     align-self: center;
   }
-
+  .button-link {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .card-stack {
+    font-size: 1rem;
+  }
   .card-image {
     width: 20rem;
+  }
+  .card-title {
+    font-size: 1.5rem;
   }
 }
 </style>
