@@ -273,6 +273,9 @@ export default defineComponent({
 .tech {
   background-color: rgb(62, 10, 206);
   min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 6rem;
 }
 .tech-title {
   color: rgb(255, 255, 255);
@@ -305,7 +308,7 @@ export default defineComponent({
 
 .front-slider .front-slide-track {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   animation: scroll 20s linear infinite;
   -webkit-animation: scroll 20s linear infinite;
   width: calc(7rem * 20);
@@ -356,15 +359,15 @@ export default defineComponent({
 
 .back-slider .back-slide-track {
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
   animation: scroll 20s linear infinite;
   -webkit-animation: scroll 20s linear infinite;
-  width: calc(10rem * 8);
+  width: calc(9rem * 8);
   align-items: center;
 }
 
 .back-slider .back-slide {
-  width: 10rem;
+  width: 9rem;
 }
 
 .back-slider .back-slide img {
@@ -377,8 +380,8 @@ export default defineComponent({
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-10rem * 4));
-    transform: translateX(calc(-10rem * 4));
+    -webkit-transform: translateX(calc(-9rem * 4));
+    transform: translateX(calc(-9rem * 4));
   }
 }
 
@@ -387,6 +390,7 @@ export default defineComponent({
   align-items: center;
   justify-content: center;
   gap: 6rem;
+  padding-bottom: 6rem;
 }
 .other-title {
   color: rgb(255, 255, 255);
@@ -405,15 +409,15 @@ export default defineComponent({
 
 .other-slider .other-slide-track {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   animation: scroll 20s linear infinite;
   -webkit-animation: scroll 20s linear infinite;
-  width: calc(7rem * 16);
+  width: calc(8rem * 16);
   align-items: center;
 }
 
 .other-slider .other-slide {
-  width: 7rem;
+  width: 8rem;
 }
 
 .other-slider .other-slide img {
@@ -426,8 +430,30 @@ export default defineComponent({
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-7rem * 8));
-    transform: translateX(calc(-7rem * 8));
+    -webkit-transform: translateX(calc(-8rem * 8));
+    transform: translateX(calc(-8rem * 8));
+  }
+}
+
+@media (max-width: 700px) {
+  .front {
+    gap: 1rem;
+  }
+  .front-title {
+    font-size: 1rem;
+    text-decoration: underline;
+    border-bottom: none;
+  }
+
+  .back-title {
+    font-size: 1rem;
+    text-decoration: underline;
+    border-bottom: none;
+  }
+  .other-title {
+    font-size: 1rem;
+    text-decoration: underline;
+    border-bottom: none;
   }
 }
 </style>

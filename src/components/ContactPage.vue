@@ -38,6 +38,9 @@ export default defineComponent({
 .contact {
   background-color: rgb(156, 144, 144);
   min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 6rem;
 }
 
 .contact-title {
@@ -66,5 +69,11 @@ export default defineComponent({
   transform: scale(1.3);
   opacity: 0.5;
   transition: 0.7s;
+}
+
+@media (max-width: 500px) {
+  .contact-icons {
+    flex-direction: column;
+  }
 }
 </style>
