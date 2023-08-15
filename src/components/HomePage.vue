@@ -205,6 +205,7 @@ export default defineComponent({
   .container {
     padding-top: 7.5rem;
     padding-left: 0rem;
+    padding-right: 0rem;
   }
   .image-home {
     width: 15rem;
