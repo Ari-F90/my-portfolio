@@ -61,7 +61,7 @@ export default defineComponent({
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  padding-bottom: 9rem;
+  padding-bottom: 4.5rem;
 }
 
 .contact-icon {
@@ -82,6 +82,7 @@ export default defineComponent({
   }
   .contact-icons {
     flex-direction: column;
+    padding-bottom: 3rem;
   }
   .contact-title {
     padding-top: 10rem;

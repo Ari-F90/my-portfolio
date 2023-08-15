@@ -14,5 +14,6 @@
   padding-top: 5rem;
   text-align: center;
   font-family: "Tektur", cursive;
+  font-size: 0.8rem;
 }
 </style>
