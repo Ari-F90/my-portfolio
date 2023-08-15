@@ -70,6 +70,8 @@ export default defineComponent({
   min-height: 100vh;
   padding-left: 6rem;
   padding-right: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
 }
 
 .about-title {

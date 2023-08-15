@@ -34,8 +34,8 @@
         </p>
         <div class="buttons">
           <a
-            href="https://drive.google.com/file/d/1w8XTVjmkvkXA4MyeRM4WrwzRfwkrZ2yC/view?usp=sharing"
-            ><button class="button">My resume</button></a
+            href="https://drive.google.com/file/d/1pMzt7BJkLj0JR5aP8jLunh55gdsaJHw9/view?usp=sharing"
+            ><button class="button-resume">My resume</button></a
           >
           <a href="https://github.com/Ari-F90"
             ><img class="github" src="../../public/img/github.png"
@@ -130,7 +130,7 @@ export default defineComponent({
   flex-direction: row;
   gap: 3rem;
 }
-.button {
+.button-resume {
   width: 8rem;
   height: 2.7rem;
   border-radius: 0.8rem;
@@ -142,7 +142,7 @@ export default defineComponent({
   font-size: 1.2rem;
   transition: 0.5s;
 }
-.button:hover {
+.button-resume:hover {
   transform: scale(1.2);
   opacity: 0.5;
   transition: 0.5s;
@@ -203,9 +203,7 @@ export default defineComponent({
 }
 @media (max-width: 600px) {
   .container {
-    padding-top: 7.5rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding: 7.5rem 0;
   }
   .image-home {
     width: 15rem;
@@ -214,11 +212,13 @@ export default defineComponent({
   .buttons {
     gap: 2rem;
     align-self: center;
+    padding-top: 0.8rem;
   }
-  .button {
-    width: 5rem;
-    height: 2.8rem;
+  .button-resume {
+    width: 7rem;
+    height: 3rem;
     font-size: 1rem;
+    padding: 0.5rem;
   }
 
   .hello {
@@ -226,6 +226,11 @@ export default defineComponent({
   }
   .ocupation {
     text-align: center;
+    font-size: 1.5rem;
+  }
+  .description {
+    text-align: center;
+    font-size: 1.3rem;
   }
   .arrow-container {
     padding-right: 1.5%;
@@ -302,7 +307,7 @@ export default defineComponent({
   }
 
   .burger-ul {
-    padding: 7rem 4rem;
+    padding: 7.5rem 3rem;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -310,7 +315,7 @@ export default defineComponent({
     z-index: 1;
     gap: 2rem;
     font-size: 1.4rem;
-    font-family: "Ysabeau Infant", sans-serif;
+    font-family: "Tektur", cursive;
     list-style: none;
     text-decoration: none;
     height: 100%;
