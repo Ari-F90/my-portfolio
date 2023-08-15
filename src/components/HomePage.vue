@@ -34,7 +34,7 @@
         </p>
         <div class="buttons">
           <a
-            href="https://drive.google.com/file/d/1pMzt7BJkLj0JR5aP8jLunh55gdsaJHw9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1pMzt7BJkLj0JR5aP8jLunh55gdsaJHw9/view?usp=sharing  "
             ><button class="button-resume">My resume</button></a
           >
           <a href="https://github.com/Ari-F90"
@@ -204,6 +204,10 @@ export default defineComponent({
 @media (max-width: 600px) {
   .container {
     padding: 7.5rem 0;
+  }
+  .sub-container {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
   }
   .image-home {
     width: 15rem;
