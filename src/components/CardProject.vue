@@ -133,7 +133,7 @@ export default defineComponent({
     font-size: 1rem;
   }
   .card-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .card-stack {
     font-size: 1rem;

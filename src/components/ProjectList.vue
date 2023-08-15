@@ -60,7 +60,8 @@ export default defineComponent({
 .projects {
   background-color: rgba(157, 205, 205, 255);
   min-height: 100vh;
-  padding-bottom: 6rem;
+  padding-bottom: 10rem;
+  padding-top: 3rem;
 }
 
 .projects-title {
@@ -69,8 +70,6 @@ export default defineComponent({
   text-align: center;
   padding-top: 4rem;
   font-size: 3rem;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .list-container {

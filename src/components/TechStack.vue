@@ -2,7 +2,7 @@
   <section id="tech" class="tech">
     <h1 class="tech-title">My Tech Stack</h1>
     <div class="front">
-      <span class="front-title">FRONT-END</span>
+      <span class="front-title">FRONTEND</span>
       <div class="front-slider">
         <div class="front-slide-track">
           <div class="front-slide">
@@ -109,7 +109,7 @@
       </div>
     </div>
     <div class="back">
-      <span class="back-title">BACK-END</span>
+      <span class="back-title">BACKEND</span>
       <div class="back-slider">
         <div class="back-slide-track">
           <div class="back-slide">
@@ -273,9 +273,10 @@ export default defineComponent({
 .tech {
   background-color: rgb(62, 10, 206);
   min-height: 100vh;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 5rem;
+  padding-right: 5rem;
   padding-bottom: 6rem;
+  padding-top: 3rem;
 }
 .tech-title {
   color: rgb(255, 255, 255);
