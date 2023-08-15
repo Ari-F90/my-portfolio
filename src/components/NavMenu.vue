@@ -87,9 +87,15 @@ li a:hover {
   width: 2.5rem;
 }
 
-@media (max-width: 500px) {
-  .nav-list {
-    flex-direction: row;
+@media (max-width: 1200px) {
+  .nav {
+    width: 10rem;
+  }
+}
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+    width: 0rem;
   }
 }
 </style>
