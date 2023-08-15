@@ -69,6 +69,8 @@ export default defineComponent({
   text-align: center;
   padding-top: 4rem;
   font-size: 3rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .list-container {

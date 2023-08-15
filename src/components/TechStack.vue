@@ -439,6 +439,12 @@ export default defineComponent({
   .front {
     gap: 1rem;
   }
+  .back {
+    gap: 1rem;
+  }
+  .other {
+    gap: 1rem;
+  }
   .front-title {
     font-size: 1rem;
     text-decoration: underline;
