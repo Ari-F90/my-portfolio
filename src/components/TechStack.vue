@@ -273,8 +273,6 @@ export default defineComponent({
 .tech {
   background-color: rgb(62, 10, 206);
   min-height: 100vh;
-  padding-left: 5rem;
-  padding-right: 5rem;
   padding-bottom: 6rem;
   padding-top: 3rem;
 }
@@ -437,14 +435,19 @@ export default defineComponent({
 }
 
 @media (max-width: 700px) {
+  .tech {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .front {
-    gap: 1rem;
+    gap: 2rem;
   }
   .back {
-    gap: 1rem;
+    gap: 2rem;
   }
   .other {
-    gap: 1rem;
+    gap: 2rem;
   }
   .front-title {
     font-size: 1rem;
