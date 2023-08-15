@@ -1,7 +1,7 @@
-# My Personal Website ❤️
+# My Personal Website 💻📱
 
-Welcome to my personal website repository! This website showcases my projects, skills, hobbies, and more. It's built using Vue.js and JavaScript.
-To access and explore my personal website, simply follow the link below:
+Welcome to my personal website repository! This website showcases my projects, skills, hobbies, and more. It's built using Vue.js and JavaScript.<br>
+To access and explore my personal website, simply follow this link:
 https://ariadna-frias-portfolio.netlify.app/
 
 **_Desktop display_**:
@@ -38,4 +38,4 @@ Here are some of the projects I have worked on, along with their description, te
 
 ## Contact
 
-Feel free to reach out to me via email at [ariadna.812@gmail.com]. You can also find me on LinkedIn and GitHub.
+Feel free to reach out to me via email at ariadna.812@gmail.com. You can also find me on LinkedIn and GitHub.
