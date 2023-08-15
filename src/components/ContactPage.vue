@@ -23,14 +23,19 @@
           alt="linkedin"
       /></a>
     </div>
+    <FooterPage></FooterPage>
   </section>
 </template>
 
 <script>
 import { defineComponent } from "vue";
+import FooterPage from "../components/FooterPage.vue";
 
 export default defineComponent({
   name: "ContactPage",
+  components: {
+    FooterPage,
+  },
 });
 </script>
 
@@ -38,9 +43,8 @@ export default defineComponent({
 .contact {
   background-color: rgb(156, 144, 144);
   min-height: 100vh;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .contact-title {
@@ -57,6 +61,7 @@ export default defineComponent({
   align-items: center;
   justify-content: center;
   gap: 5rem;
+  padding-bottom: 9rem;
 }
 
 .contact-icon {
@@ -72,6 +77,9 @@ export default defineComponent({
 }
 
 @media (max-width: 500px) {
+  .contact {
+    padding-bottom: 4rem;
+  }
   .contact-icons {
     flex-direction: column;
   }
