@@ -75,5 +75,8 @@ export default defineComponent({
   .contact-icons {
     flex-direction: column;
   }
+  .contact-title {
+    padding-top: 10rem;
+  }
 }
 </style>

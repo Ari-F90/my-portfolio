@@ -241,41 +241,44 @@ export default defineComponent({
   }
 
   .burger {
-    position: relative;
+    position: fixed;
     width: 2rem;
     height: 0.25rem;
-    background-color: rgb(62, 10, 206);
+    background-color: rgb(255, 255, 255);
     border-radius: 0.6rem;
     cursor: pointer;
     z-index: 2;
     transition: 0.8s;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
   }
   .burger:before,
   .burger:after {
     content: "";
-    position: absolute;
+    position: fixed;
     height: 0.25rem;
-    right: 0;
-    background: rgb(62, 10, 206);
+    right: 50;
+    background: rgb(255, 255, 255);
     border-radius: 0.6rem;
     transition: 0.8s;
     z-index: 2;
   }
   .burger:before {
+    margin-top: 3rem;
     top: -0.6rem;
-    width: 1.5rem;
+    width: 2rem;
     z-index: 2;
   }
   .burger:after {
+    margin-top: 3rem;
     top: 0.6rem;
-    width: 1.5rem;
+    width: 2rem;
     z-index: 2;
   }
   .toggle-menu {
-    position: absolute;
-    width: 5rem;
+    position: fixed;
+    width: 10rem;
+    height: 4rem;
     z-index: 3;
     cursor: pointer;
     opacity: 0;
@@ -283,6 +286,7 @@ export default defineComponent({
 
   .navigation input:checked ~ .burger {
     background: transparent;
+    position: fixed;
   }
   .navigation input:checked ~ .burger:before {
     top: 0;
@@ -311,11 +315,11 @@ export default defineComponent({
     text-decoration: none;
     height: 100%;
     width: 15rem;
-    position: fixed;
     background-color: rgb(156, 144, 144);
     left: -99rem;
-    transition: 2s;
+    transition: 1.5s;
     top: 0;
+    position: fixed;
   }
 
   .burger-li {
