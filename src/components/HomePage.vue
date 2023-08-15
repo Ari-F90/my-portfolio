@@ -205,7 +205,6 @@ export default defineComponent({
   .container {
     padding-top: 7.5rem;
     padding-left: 0rem;
-    margin-left: 0rem;
   }
   .image-home {
     width: 15rem;
@@ -302,14 +301,14 @@ export default defineComponent({
   }
 
   .burger-ul {
-    padding: 6rem 3.5rem;
+    padding: 7rem 4rem;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     z-index: 1;
     gap: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: "Ysabeau Infant", sans-serif;
     list-style: none;
     text-decoration: none;
@@ -317,7 +316,7 @@ export default defineComponent({
     width: 15rem;
     background-color: rgb(156, 144, 144);
     left: -99rem;
-    transition: 1.5s;
+    transition: 2s;
     top: 0;
     position: fixed;
   }
