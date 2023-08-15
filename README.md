@@ -1,6 +1,8 @@
 # My Personal Website ❤️
 
 Welcome to my personal website repository! This website showcases my projects, skills, hobbies, and more. It's built using Vue.js and JavaScript.
+To access and explore my personal website, simply follow the link below:
+https://ariadna-frias-portfolio.netlify.app/
 
 **_Desktop display_**:
 
