@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div>Designed with 💜 and code by Ariadna Frias.</div>
+    <div>Designed with 💜 and coded by Ariadna Frias.</div>
     <div>© 2023 All rights reserved.</div>
   </footer>
 </template>
