@@ -129,6 +129,7 @@ export default defineComponent({
   display: flex;
   flex-direction: row;
   gap: 3rem;
+  align-items: center;
 }
 .button-resume {
   width: 8rem;
