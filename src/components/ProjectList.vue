@@ -1,6 +1,6 @@
 <template>
   <section id="projects" class="projects">
-    <h1 class="projects-title">Check out them!</h1>
+    <h1 class="projects-title">Check them out!</h1>
     <div class="list-container">
       <CardProject
         title="HERLAND"
@@ -29,7 +29,7 @@
       <CardProject
         title="MOVIE EXPLORER"
         image="../../img/movieapi.png"
-        description="Application that allows users to explore the latest movies currently in cinemas, fetching data from the The Movie Database API (https://developer.themoviedb.org/)."
+        description="Application that allows users to explore the latest movies showing now in cinemas, fetching data from the The Movie Database API (https://developer.themoviedb.org/)."
         stack="Javascript | React | Flux"
         link="https://moviesdborg-api.netlify.app/"
         github="https://github.com/Ari-F90/MovieAPI"
