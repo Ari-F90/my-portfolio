@@ -6,14 +6,13 @@ https://ariadna-frias-portfolio.netlify.app/
 
 **_Desktop display_**:
 
-<img width="875" alt="Captura de pantalla 2023-08-15 a las 13 15 20" src="https://github.com/Ari-F90/my-portfolio/assets/115626747/1ba58ce4-40e7-40fa-8876-cf2a91794fae">
+<img width="865" alt="Captura de pantalla 2023-08-17 a las 15 26 42" src="https://github.com/Ari-F90/my-portfolio/assets/115626747/48da2f8c-b163-4407-92a3-8735257e1382">
 
 <br>
 
 **_Mobile display_**:
 
-<img width="510" alt="Captura de pantalla 2023-08-15 a las 13 23 39" src="https://github.com/Ari-F90/my-portfolio/assets/115626747/c78dcefb-a7a6-4e1b-b9ef-711b5180b91b">
-
+<img width="512" alt="Captura de pantalla 2023-08-17 a las 15 30 24" src="https://github.com/Ari-F90/my-portfolio/assets/115626747/3d8cbf45-d84a-49a4-9334-30e69ce96b03">
 <br>
 
 ## About me
