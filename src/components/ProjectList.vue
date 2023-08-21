@@ -9,6 +9,7 @@
         stack="SASS modules | Typescript | React | Redux | NodeJS | Express | MongoDB | Jest | Firebase"
         link="https://herland.netlify.app/"
         github="https://github.com/Ari-F90/HerLand-front"
+        render="https://herland.onrender.com/"
       ></CardProject>
       <CardProject
         title="FESTIVAPP"
@@ -17,6 +18,7 @@
         stack="SASS modules | Typescript | React | Redux | NodeJS | Express | MongoDB | JWT | Jest | Firebase"
         link="https://ariadna-frias-final-project-front.netlify.app/"
         github="https://github.com/Ari-F90/FestivApp-front"
+        render="https://final-project-festivapp.onrender.com"
       ></CardProject>
       <CardProject
         title="MY PORTFOLIO"

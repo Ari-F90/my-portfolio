@@ -8,6 +8,11 @@
             <img class="card-image" v-bind:src="image" v-bind:alt="title" />
           </div>
           <div class="buttons">
+            <a :href="render" target="_blank"
+              ><button v-if="render" class="button-link">
+                Start the server
+              </button></a
+            >
             <a :href="link"
               ><button class="button-link">Project link</button></a
             >
@@ -31,7 +36,7 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "CardProject",
-  props: ["title", "stack", "image", "description", "link", "github"],
+  props: ["title", "stack", "image", "description", "link", "github", "render"],
 });
 </script>
 
@@ -40,6 +45,7 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  justify-content: center;
 }
 .card-title {
   color: rgb(255, 255, 255);
@@ -59,6 +65,7 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   gap: 2rem;
 }
 .buttons {
@@ -85,6 +92,7 @@ export default defineComponent({
   color: rgb(255, 255, 255);
   border: 3px solid rgb(255, 255, 255);
 }
+
 .card-text {
   display: flex;
   flex-direction: column;
@@ -122,15 +130,30 @@ export default defineComponent({
     align-self: center;
   }
 }
+@media (max-width: 700px) {
+  .buttons {
+    gap: 2rem;
+  }
+  .button-link {
+    width: 8rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+  }
+}
+
 @media (max-width: 500px) {
   .card-image {
     object-fit: contain;
     align-self: center;
   }
+
+  .buttons {
+    gap: 0.8rem;
+  }
   .button-link {
-    width: 8rem;
-    height: 3rem;
-    font-size: 1rem;
+    width: 6rem;
+    height: 2.8rem;
+    font-size: 0.9rem;
   }
   .card-text {
     font-size: 1.1rem;
@@ -143,6 +166,10 @@ export default defineComponent({
   }
   .card-title {
     font-size: 1.5rem;
+  }
+  .card-image:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
   }
 }
 </style>
