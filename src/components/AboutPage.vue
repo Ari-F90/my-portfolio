@@ -101,15 +101,15 @@ export default defineComponent({
   min-height: 100vh;
   padding-left: 6rem;
   padding-right: 5rem;
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-top: 2.8rem;
+  padding-bottom: 5rem;
 }
 
 .about-title {
   color: rgb(62, 10, 206);
   font-family: "Tektur", cursive;
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 3rem;
   font-size: 3rem;
 }
 
@@ -134,7 +134,7 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-bottom: 6rem;
+  padding-bottom: 8rem;
 }
 .skills {
   display: flex;
@@ -169,7 +169,7 @@ export default defineComponent({
 }
 .skills-icon {
   display: flex;
-  gap: 6rem;
+  gap: 4rem;
   align-self: center;
   text-align: center;
 }
@@ -193,14 +193,14 @@ export default defineComponent({
   color: rgb(255, 255, 255);
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 1.2rem;
-  gap: 6rem;
+  gap: 7rem;
 }
 .hobbies-title {
   align-self: center;
 }
 .hobbies-icon {
   display: flex;
-  gap: 6rem;
+  gap: 4rem;
 }
 
 @media (max-width: 1100px) {
