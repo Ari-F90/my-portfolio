@@ -165,10 +165,13 @@ export default defineComponent({
   font-size: 1rem;
   justify-self: center;
   align-self: center;
+  text-align: center;
 }
 .skills-icon {
   display: flex;
   gap: 6rem;
+  align-self: center;
+  text-align: center;
 }
 
 .icon {

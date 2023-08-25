@@ -448,18 +448,15 @@ export default defineComponent({
   }
   .front-title {
     font-size: 1rem;
-    text-decoration: underline;
     border-bottom: none;
   }
 
   .back-title {
     font-size: 1rem;
-    text-decoration: underline;
     border-bottom: none;
   }
   .other-title {
     font-size: 1rem;
-    text-decoration: underline;
     border-bottom: none;
   }
 }
