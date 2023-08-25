@@ -295,7 +295,6 @@ export default defineComponent({
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 1.2rem;
   align-self: center;
-  border-bottom: 2px solid rgb(255, 255, 255);
   padding-top: 4rem;
 }
 .front-slider {
@@ -345,7 +344,6 @@ export default defineComponent({
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 1.2rem;
   align-self: center;
-  border-bottom: 2px solid rgb(255, 255, 255);
   padding-top: 2rem;
 }
 
@@ -396,7 +394,6 @@ export default defineComponent({
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 1.2rem;
   align-self: center;
-  border-bottom: 2px solid rgb(255, 255, 255);
   padding-top: 2rem;
 }
 .other-slider {
@@ -451,18 +448,15 @@ export default defineComponent({
   }
   .front-title {
     font-size: 1rem;
-    text-decoration: underline;
     border-bottom: none;
   }
 
   .back-title {
     font-size: 1rem;
-    text-decoration: underline;
     border-bottom: none;
   }
   .other-title {
     font-size: 1rem;
-    text-decoration: underline;
     border-bottom: none;
   }
 }
