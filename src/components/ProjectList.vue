@@ -37,10 +37,18 @@
         github="https://github.com/Ari-F90/MovieAPI"
       ></CardProject>
       <CardProject
+        title="GIF SEARCH ENGINE"
+        image="../../img/gif-search.png"
+        description="Application that allows users to search for gifs related with a topic of their choice, fetching data from the The Giphy API (https://giphy.com/)"
+        stack="Javascript | React | Custom hooks | API Fetch"
+        link="https://gif-search-engine-giphy.netlify.app/"
+        github="https://github.com/Ari-F90/Gif-search-engine"
+      ></CardProject>
+      <CardProject
         title="PASAPALABRA"
         image="../../img/pasapalabra.png"
         description="Word-based trivia game inspired by the popular TV show. Players are presented with a series of questions, each associated with a specific letter of the alphabet."
-        stack="Javascript"
+        stack="Javascript vanilla"
         link="https://pasapalabraaf.netlify.app/"
         github="https://github.com/Ari-F90/Pasapalabra-precourse-challenge"
       ></CardProject>
