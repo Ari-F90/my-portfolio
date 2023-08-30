@@ -24,7 +24,11 @@
 
         <div class="card-text">
           <div class="card-desc">{{ description }}</div>
-          <div class="card-stack">{{ stack }}</div>
+          <div class="div-stack">
+            <div class="card-stack">{{ front }}</div>
+            <div v-if="back" class="card-stack">{{ back }}</div>
+            <div v-if="test" class="card-stack">{{ test }}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -36,7 +40,17 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "CardProject",
-  props: ["title", "stack", "image", "description", "link", "github", "render"],
+  props: [
+    "title",
+    "front",
+    "back",
+    "test",
+    "image",
+    "description",
+    "link",
+    "github",
+    "render",
+  ],
 });
 </script>
 
@@ -110,13 +124,18 @@ export default defineComponent({
 }
 
 .card-image:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   transition: 0.7s;
 }
 
+.div-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
 .card-stack {
   font-family: "Tektur", cursive;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(62, 10, 206);
 }
 
@@ -159,10 +178,11 @@ export default defineComponent({
     font-size: 1.1rem;
   }
   .card-stack {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .card-image {
     width: 20rem;
+    transition: 0.7s;
   }
   .card-title {
     font-size: 1.5rem;

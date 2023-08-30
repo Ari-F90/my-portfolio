@@ -2,7 +2,7 @@
   <section id="tech" class="tech">
     <h1 class="tech-title">My Tech Stack</h1>
     <div class="front">
-      <span class="front-title">FRONTEND</span>
+      <span class="front-title">FRONT-END</span>
       <div class="front-slider">
         <div class="front-slide-track">
           <div class="front-slide">
@@ -109,7 +109,7 @@
       </div>
     </div>
     <div class="back">
-      <span class="back-title">BACKEND</span>
+      <span class="back-title">BACK-END</span>
       <div class="back-slider">
         <div class="back-slide-track">
           <div class="back-slide">
