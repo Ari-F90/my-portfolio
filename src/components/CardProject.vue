@@ -124,7 +124,7 @@ export default defineComponent({
 }
 
 .card-image:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   transition: 0.7s;
 }
 
@@ -182,6 +182,7 @@ export default defineComponent({
   }
   .card-image {
     width: 20rem;
+    transition: 0.7s;
   }
   .card-title {
     font-size: 1.5rem;
