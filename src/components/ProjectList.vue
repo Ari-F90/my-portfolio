@@ -36,7 +36,7 @@
         title="MOVIE EXPLORER"
         image="../../img/movieapi.png"
         description="Application that allows users to explore the latest movies showing now in cinemas, fetching data from the The Movie Database API (https://developer.themoviedb.org/)."
-        front="Javascript | React | Flux | Custom hooks | API Fetch"
+        front="Javascript | React | Context | Custom hooks | API Fetch"
         link="https://moviesdborg-api.netlify.app/"
         github="https://github.com/Ari-F90/MovieAPI"
       ></CardProject>
