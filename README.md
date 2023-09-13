@@ -2,7 +2,7 @@
 
 Welcome to my personal website repository! This website showcases my projects, skills, hobbies, and more. It's built using Vue.js and JavaScript.<br>
 To access and explore my personal website, simply follow this link:
-https://ariadna-frias-portfolio.netlify.app/
+https://ari-f90.github.io/my-portfolio/
 
 **_Desktop display_**:
 
